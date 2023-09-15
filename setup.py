@@ -9,7 +9,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 requirements = (
     'wheel',
     'networkx',
-    'numpy <1.21,>=1.17',
+    'numpy <1.25,>=1.17',
     'psycopg2',
     'pyproj',
     'pywavefront',
@@ -17,7 +17,7 @@ requirements = (
     'scipy ==1.9.3',
     'shapely',
     'alphashape <=1.3.1',
-    'py3dtiles @ git+https://github.com/VCityTeam/py3dtiles@Tiler',
+    'py3dtiles @ git+https://github.com/kespry/py3dtiles@Tiler',
     'earclip @ git+https://github.com/lionfish0/earclip',
     'Pillow',
     'ifcopenshell',
