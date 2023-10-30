@@ -9,7 +9,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 requirements = (
     'wheel',
     'networkx',
-    'numpy <1.21,>=1.17',
+    'numpy <1.25,>=1.17',
     'psycopg2',
     'pyproj',
     'pywavefront',
